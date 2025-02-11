@@ -20,3 +20,11 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: "Grok";
+  src: url("Grok.ttf");
+}
+@font-face {
+  font-family: "Unison";
+  src: url("Unison.otf");
+}

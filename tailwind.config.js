@@ -10,6 +10,8 @@ export default {
       },
       fontFamily: {
         FiraMono: ["FiraMono"],
+        Grok: ["Grok"],
+        Unison: ["Unison"],
       },
     },
   },
