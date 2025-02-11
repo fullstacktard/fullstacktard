@@ -46,9 +46,6 @@ export default {
     rgba(255, 255, 255, 0.1),
     rgba(0, 255, 0, 0.05)
   );
-  box-shadow:
-    20px 20px 60px rgba(0, 0, 0, 0.5),
-    -20px -20px 60px rgba(255, 255, 255, 0.05);
 }
 
 .column-item:hover {
