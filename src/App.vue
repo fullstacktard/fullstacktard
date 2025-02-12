@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <div class="w-screen flex-col relative font-Unison">
-    <RouterView class="w-screen h-full relative" />
+    <RouterView class="w-screen h-screen relative" />
   </div>
 </template>
 

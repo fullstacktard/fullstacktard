@@ -1,5 +1,5 @@
 <template>
-  <div class="three-column mt-8 lg:mt-16">
+  <div class="three-column mt-12 lg:mt-16 z-30">
     <div
       v-for="(item, index) in items"
       :key="index"
@@ -9,7 +9,7 @@
         filter: `brightness(${100}%)`,
       }"
     >
-      <div class="content">
+      <div class="content z-30">
         <slot name="item" :item="item" :index="index" />
       </div>
     </div>
@@ -29,9 +29,16 @@ export default {
 
 <style>
 .three-column {
-  @apply flex flex-col items-center gap-24;
+  @apply flex flex-col items-center gap-16;
   perspective: 1200px;
   transform-style: preserve-3d;
+}
+@screen lg {
+  .three-column {
+    @apply flex flex-col items-center gap-24;
+    perspective: 1200px;
+    transform-style: preserve-3d;
+  }
 }
 
 .column-item {
