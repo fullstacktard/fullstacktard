@@ -1,5 +1,10 @@
 <template>
-  <div class="three-column mt-12 lg:mt-16 z-30">
+  <div
+    data-aos="fade-in"
+    data-aos-duration="1000"
+    data-aos-delay="600"
+    class="three-column mt-12 lg:mt-16 z-30"
+  >
     <div
       v-for="(item, index) in items"
       :key="index"

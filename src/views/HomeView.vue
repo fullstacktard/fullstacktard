@@ -1,37 +1,92 @@
 <template>
   <div
-    id="vanta-bg"
     class="flex flex-col items-center h-screen justify-center w-screen home font-Unison z-0 overflow-hidden"
   >
+    <div
+      data-aos="fade-left"
+      data-aos-duration="1000"
+      data-aos-delay="500"
+      class="min-w-[360px] absolute right-6 rounded-2xl bottom-6 backdrop-blur-lg bg-white/10 lg:bg-white/5 z-[100] p-8 transition-all transform duration-300 hover:bg-white/10 border border-white/10 hover:border-white/20"
+    >
+      <div class="flex flex-col items-center space-y-6">
+        <div class="text-center space-y-3">
+          <h3 class="text-xl font-semibold text-[#00ff00]">Get in touch</h3>
+          <div class="space-y-3 text-gray-300 text-md">
+            <p class="leading-tight">Got a cook?</p>
+            <p class="leading-tight">Want sumthin built?</p>
+            <p class="leading-tight">Need emotional support?</p>
+          </div>
+        </div>
+        <a
+          href="https://t.me/fullstacktard"
+          target="_blank"
+          class="group flex items-center space-x-2 bg-[#00ff00] hover:bg-[#00e600] text-black px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-[#00ff00]/30 ring-0 hover:ring-2 hover:ring-[#00ff00]/20"
+        >
+          <span>Slide in dms</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-5 h-5 transition-transform group-hover:translate-x-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div id="particles-js"></div>
     <div
       class="w-full h-full absolute left-0 top-0 bg-black bg-opacity-40 z-[1]"
     ></div>
     <div
       class="z-2 flex flex-col items-center h-screen justify-start w-screen font-Unison pt-14 lg:pt-20 relative overflow-y-scroll overflow-x-hidden scrollbar"
     >
-      <div class="text-wrapper">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        class="text-wrapper"
+      >
         <h1 class="text">fullstack<span class="tard-flicker">tard</span></h1>
         <span class="text flicker" aria-hidden="true">fullstack</span>
       </div>
-      <div class="text-white mt-4 lg:mt-8 text-2xl lg:text-4xl">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        class="text-white mt-4 lg:mt-8 text-2xl lg:text-4xl"
+      >
         I build 😎💩
       </div>
+
       <div
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-delay="100"
         class="grid grid-cols-3 gap-4 text-white text-2xl lg:text-3xl mt-4 lg:mt-8 z-[2]"
       >
         <a
+          target="_blank"
           href="https://x.com/fullstacktard"
           class="col-span-1 hover:text-[#00ff00] transition-colors"
         >
           <font-awesome-icon :icon="['fab', 'x-twitter']" />
         </a>
         <a
+          target="_blank"
           href="https://t.me/fullstacktard"
           class="col-span-1 hover:text-[#00ff00] transition-colors"
         >
           <font-awesome-icon :icon="['fab', 'telegram']" />
         </a>
         <a
+          target="_blank"
           href="https://github.com/fullstacktard"
           class="col-span-1 hover:text-[#00ff00] transition-colors"
         >
@@ -39,7 +94,12 @@
         </a>
       </div>
       <div class="flex flex-col items-center justify-center rounded-full">
-        <div class="text-white mt-4 lg:mt-8 text-3xl lg:text-5xl">
+        <div
+          data-aos="fade-in"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          class="text-white mt-4 lg:mt-8 text-3xl lg:text-5xl"
+        >
           À la carte
         </div>
 
@@ -72,6 +132,7 @@
                   v-for="(link, i) in items[index].links"
                   :key="i"
                   :href="link.url"
+                  target="_blank"
                   class="hover:text-[#00ff00] transition-colors z-30"
                 >
                   <font-awesome-icon
@@ -87,6 +148,9 @@
     </div>
 
     <div
+      data-aos="fade-in"
+      data-aos-delay="600"
+      data-aos-duration="1500"
       class="hidden lg:block absolute bottom-10 left-10 z-[3] w-[550px] h-[550px]"
     >
       <threejs />
@@ -103,8 +167,117 @@ import ThreeColumn from "../components/ThreeColumn.vue";
 export default {
   components: { threejs, ThreeColumn },
   setup() {
-    let vantaEffect = null;
-
+    async function initParticles() {
+      particlesJS("particles-js", {
+        particles: {
+          number: {
+            value: 104,
+            density: {
+              enable: true,
+              value_area: 800,
+            },
+          },
+          color: {
+            value: "#ffffff",
+          },
+          shape: {
+            type: "circle",
+            stroke: {
+              width: 0,
+              color: "#000000",
+            },
+            polygon: {
+              nb_sides: 5,
+            },
+            image: {
+              width: 100,
+              height: 100,
+            },
+          },
+          opacity: {
+            value: 0.21306986324071361,
+            random: true,
+            anim: {
+              enable: false,
+              speed: 1,
+              opacity_min: 0.1,
+              sync: false,
+            },
+          },
+          size: {
+            value: 2,
+            random: true,
+            anim: {
+              enable: true,
+              speed: 2,
+              size_min: 1,
+              sync: false,
+            },
+          },
+          line_linked: {
+            enable: true,
+            distance: 140,
+            color: "#00ff00",
+            opacity: 1,
+            width: 1,
+          },
+          move: {
+            enable: true,
+            speed: 6,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "bounce",
+            bounce: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 1200,
+            },
+          },
+        },
+        interactivity: {
+          detect_on: "window",
+          events: {
+            onhover: {
+              enable: true,
+              mode: "grab",
+            },
+            onclick: {
+              enable: false,
+              mode: "push",
+            },
+            resize: true,
+          },
+          modes: {
+            grab: {
+              distance: 134,
+              line_linked: {
+                opacity: 1,
+              },
+            },
+            bubble: {
+              distance: 400,
+              size: 40,
+              duration: 2,
+              opacity: 8,
+              speed: 3,
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4,
+            },
+            push: {
+              particles_nb: 4,
+            },
+            remove: {
+              particles_nb: 2,
+            },
+          },
+        },
+        retina_detect: true,
+      });
+    }
     const items = [
       {
         pfp: "unit1new.png",
@@ -120,43 +293,32 @@ export default {
         ],
       },
       {
+        pfp: "Schema3.png",
+        title: "Schema3",
+        titleClass: "text-3xl",
+        subtitle: "Co-Founder",
+        subtitleClass: "text-xl",
+        content:
+          "Schema3 provides Launch support, end-to-end development, marketing & everything else in between.<br><br>Book in a call with us below<br><br> <a href='https://schema3.xyz'>schema3.xyz</a>",
+        links: [
+          { icon: "globe", url: "https://schema3.xyz" },
+          { icon: "x-twitter", url: "https://x.com/schema3xyz" },
+        ],
+      },
+      {
         pfp: "fst.png",
         title: "Stacktard Bot",
         titleClass: "text-xl",
         subtitle: "Just For Fun",
         subtitleClass: "text-xl",
         content:
-          "The stacktard bot is a telegram token analysis tool. Like a funnier / better version of phanes bot.<br><br>(I am biased)<br><br>CAdd @stacktard bot to your group and see what it's all about.",
+          "The stacktard bot is a telegram token analysis tool. Like a funnier / better version of phanes bot.<br><br>(I am biased)<br><br>Add @stacktard bot to your group and see what it's all about.",
         links: [{ icon: "telegram", url: "https://unitszero.one" }],
       },
     ];
 
     onMounted(() => {
-      // Load Vanta.js scripts dynamically
-      const threeScript = document.createElement("script");
-      threeScript.src =
-        "https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js";
-      document.head.appendChild(threeScript);
-
-      const vantaScript = document.createElement("script");
-      vantaScript.src =
-        "https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js";
-      vantaScript.onload = () => {
-        vantaEffect = VANTA.NET({
-          el: "#vanta-bg",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 100.0,
-          minWidth: 1000,
-          scale: 1.0,
-          scaleMobile: 1.0,
-          color: 0xff00,
-          backgroundColor: 0x0000,
-          points: 17.0,
-        });
-      };
-      document.head.appendChild(vantaScript);
+      initParticles();
     });
 
     onBeforeUnmount(() => {
@@ -291,5 +453,11 @@ h1 {
 .scrollbar {
   scrollbar-width: thin;
   scrollbar-color: #00ff00 transparent;
+}
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 </style>
