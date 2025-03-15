@@ -2,7 +2,7 @@
   <div
     data-aos="fade-in"
     data-aos-duration="1000"
-    data-aos-delay="600"
+    data-aos-delay="1000"
     class="three-column mt-12 lg:mt-16 z-30"
   >
     <div
@@ -10,7 +10,9 @@
       :key="index"
       class="column-item"
       :style="{
-        transform: `rotateY(${index % 2 === 0 ? '10deg' : '-10deg'}) `,
+        transform: `rotateY(${
+          isMobile ? 0 : index % 2 === 0 ? '10deg' : '-10deg'
+        }) `,
         filter: `brightness(${100}%)`,
       }"
     >
@@ -27,6 +29,23 @@ export default {
     items: {
       type: Array,
       required: true,
+    },
+  },
+  data() {
+    return {
+      isMobile: false,
+    };
+  },
+  created() {
+    this.checkMobile();
+    window.addEventListener("resize", this.checkMobile);
+  },
+  beforeDestroy() {
+    window.removeEventListener("resize", this.checkMobile);
+  },
+  methods: {
+    checkMobile() {
+      this.isMobile = window.innerWidth < 1024;
     },
   },
 };

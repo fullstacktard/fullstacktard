@@ -1,12 +1,12 @@
 <template>
   <div
-    class="flex flex-col items-center h-screen justify-center w-screen home font-Unison z-0 overflow-hidden"
+    class="flex flex-col items-center h-screen justify-center w-screen home font-Unison z-10 overflow-hidden"
   >
     <div
       data-aos="fade-left"
       data-aos-duration="1000"
-      data-aos-delay="500"
-      class="min-w-[360px] absolute right-6 rounded-2xl bottom-6 backdrop-blur-lg bg-white/10 lg:bg-white/5 z-[100] p-8 transition-all transform duration-300 hover:bg-white/10 border border-white/10 hover:border-white/20"
+      data-aos-delay="1000"
+      class="min-w-[360px] hidden lg:block absolute right-6 rounded-2xl bottom-6 backdrop-blur-lg bg-white/10 lg:bg-white/5 z-[10] p-8 transition-all transform duration-300 hover:bg-white/10 border border-white/10 hover:border-white/20"
     >
       <div class="flex flex-col items-center space-y-6">
         <div class="text-center space-y-3">
@@ -45,7 +45,7 @@
       class="w-full h-full absolute left-0 top-0 bg-black bg-opacity-40 z-[1]"
     ></div>
     <div
-      class="z-2 flex flex-col items-center h-screen justify-start w-screen font-Unison pt-14 lg:pt-20 relative overflow-y-scroll overflow-x-hidden scrollbar"
+      class="flex flex-col items-center h-screen justify-start w-screen font-Unison pt-14 lg:pt-20 relative overflow-y-scroll overflow-x-hidden scrollbar z-10"
     >
       <div
         data-aos="fade-down"
@@ -97,7 +97,7 @@
         <div
           data-aos="fade-in"
           data-aos-duration="1000"
-          data-aos-delay="500"
+          data-aos-delay="800"
           class="text-white mt-4 lg:mt-8 text-3xl lg:text-5xl"
         >
           À la carte
@@ -144,12 +144,47 @@
             </div>
           </template>
         </three-column>
+        <div
+          class="min-w-[360px] lg:hidden block rounded-2xl mb-4 backdrop-blur-lg bg-white/10 lg:bg-white/5 z-[100] p-8 transition-all transform duration-300 hover:bg-white/10 border border-white/10 hover:border-white/20"
+        >
+          <div class="flex flex-col items-center space-y-6">
+            <div class="text-center space-y-3">
+              <h3 class="text-xl font-semibold text-[#00ff00]">Get in touch</h3>
+              <div class="space-y-3 text-gray-300 text-md">
+                <p class="leading-tight">Got a cook?</p>
+                <p class="leading-tight">Want sumthin built?</p>
+                <p class="leading-tight">Need emotional support?</p>
+              </div>
+            </div>
+            <a
+              href="https://t.me/fullstacktard"
+              target="_blank"
+              class="group flex items-center space-x-2 bg-[#00ff00] hover:bg-[#00e600] text-black px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-[#00ff00]/30 ring-0 hover:ring-2 hover:ring-[#00ff00]/20"
+            >
+              <span>Slide in dms</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5 transition-transform group-hover:translate-x-1"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
     <div
       data-aos="fade-in"
-      data-aos-delay="600"
+      data-aos-delay="1000"
       data-aos-duration="1500"
       class="hidden lg:block absolute bottom-10 left-10 z-[3] w-[550px] h-[550px]"
     >
