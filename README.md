@@ -1,36 +1,32 @@
-# bangbangskeetskeet
+# yo
 
-This template should help get you started developing with Vue 3 in Vite.
+solo dev building crypto/web3 products, shipping fast, ignoring VC narratives
 
-## Recommended IDE Setup
+currently building at **[Duel](https://duel.casino)** (online casino) | previously co-founded **Pr3sence** (web3 ad server) & **Nomen Market** (NEAR Protocol wallet/marketplace) | did time at **PWC** doing data & analytics before escaping to build shit that matters
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## what i'm working on
 
-## Customize configuration
+**[claude-workflow](https://www.npmjs.com/package/claude-workflow)** - templating system for Claude Code that actually works. got tired of context management hell and built the config I wish existed from day one. opinionated, structured, gets out of your way so you can ship.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+also building random fullstack projects for clients and myself, mostly crypto/web3 stuff
 
-## Project Setup
+## recent thoughts
 
-```sh
-npm install
-```
+**[5 VC Dogmas in AI That Don't Matter When You're Bootstrapped](https://fst.wtf/ai-vc-dogmas)**
+why everything VCs say about AI wrappers, data moats, and first-mover advantage is completely irrelevant when you're a solo dev just trying to hit $5k MRR
 
-### Compile and Hot-Reload for Development
+**[Claude Kept Forgetting My Workflow, So I Made It Impossible to Forget](https://fst.wtf/why-i-built-claude-workflow)**
+how I went from context management chaos to shipping fast with a simple templating system
 
-```sh
-npm run dev
-```
+**[The Great Unbundling](https://fst.wtf/the-great-unbundling)**
+why Meta keeps shipping hollow products while Sora blows up overnight, and what it means for where tech is headed
 
-### Compile and Minify for Production
+## find me
 
-```sh
-npm run build
-```
+**website:** [fst.wtf](https://fst.wtf)
+**twitter:** [@fullstacktard](https://twitter.com/fullstacktard)
+**telegram:** [@shitdev](https://t.me/shitdev)
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
-# fullstacktard
+*built by someone who ships fast and ignores the noise*
