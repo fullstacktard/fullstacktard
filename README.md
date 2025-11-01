@@ -21,8 +21,6 @@ PWC - data & analytics
 
 **backend:** Node.js, Express, Rust, Python
 
-**blockchain:** Solana, NEAR Protocol, Web3
-
 ---
 
 ## npm packages
