@@ -1,22 +1,23 @@
-# yo
+# fullstacktard
 
 26 | fullstack dev | geographically promiscuous (Bali/Dubai/UK) | gym rat
 
 solo dev building crypto/web3 products, shipping fast, ignoring VC narratives
 
-currently building at **[Mystic DAO](https://mystic.xyz)** (Solana DeFi) & **[Duel](https://duel.casino)** (online casino)
+**currently:** [Mystic DAO](https://mystic.xyz) - Solana DeFi
 
-previously co-founded **Pr3sence** (web3 ad server) & **Nomen Market** (NEAR Protocol wallet/marketplace)
-
-did time at **PWC** doing data & analytics before escaping to build shit that matters
+**previously:** [Duel](https://duel.casino) - online casino | [Pr3sence](https://pr3sence.xyz) - web3 ad server | [Nomen Market](https://nomenmarket.com) - NEAR Protocol wallet/marketplace | PWC - data & analytics
 
 ---
 
 ## tech stack
 
 **frontend:** React, Vue, Next.js, TypeScript
+
 **backend:** Node.js, Express, Rust, Python
+
 **blockchain:** Solana, NEAR Protocol, Web3
+
 **tools:** Claude Code, Docker, DigitalOcean
 
 ---
