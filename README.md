@@ -11,7 +11,7 @@ solo dev building crypto/web3 products, shipping fast, ignoring VC narratives
 - [Duel](https://duel.casino) - online casino
 - [Pr3sence](https://pr3sence.xyz) - web3 ad server
 - [Nomen Market](https://nomenmarket.com) - NEAR Protocol wallet/marketplace
-- PWC - data & analytics
+- [PWC](https://www.pwc.com) - data & analytics
 
 ---
 
