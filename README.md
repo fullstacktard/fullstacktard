@@ -2,7 +2,7 @@
 
 26 | fullstack dev | geographically promiscuous (Bali/Dubai/UK) | gym rat
 
-solo dev building crypto/web3 products, shipping fast, ignoring VC narratives
+solo dev building crypto/web3 products, shipping fast
 
 **currently:**
 - [Mystic DAO](https://mystic.xyz) - Solana DeFi
