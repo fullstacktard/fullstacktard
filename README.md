@@ -4,7 +4,7 @@
 
 solo dev building crypto/web3 products, shipping fast, ignoring VC narratives
 
-currently building at **[Duel](https://duel.casino)** (online casino) | previously co-founded **Pr3sence** (web3 ad server) & **Nomen Market** (NEAR Protocol wallet/marketplace) | did time at **PWC** doing data & analytics before escaping to build shit that matters
+currently building at **[Mystic DAO](https://mystic.xyz)** (Solana DeFi) & **[Duel](https://duel.casino)** (online casino) | previously co-founded **Pr3sence** (web3 ad server) & **Nomen Market** (NEAR Protocol wallet/marketplace) | did time at **PWC** doing data & analytics before escaping to build shit that matters
 
 ## 🛠️ tech stack
 
