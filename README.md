@@ -2,7 +2,7 @@
 
 26 | fullstack dev | geographically promiscuous (Bali/Dubai/UK) | gym rat
 
-solo dev building crypto/web3 products, shipping fast
+solo dev building crypto/web3 products
 
 **currently:**
 - [Mystic DAO](https://mystic.xyz) - Solana DeFi
@@ -73,7 +73,3 @@ why Meta keeps shipping hollow products while Sora blows up overnight, and what 
 **twitter:** [@fullstacktard](https://twitter.com/fullstacktard)
 
 **telegram:** [@fullstacktard](https://t.me/fullstacktard)
-
----
-
-*building in public. shipping fast. ignoring the noise.*
