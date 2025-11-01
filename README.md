@@ -5,13 +5,13 @@
 solo dev building crypto/web3 products, shipping fast, ignoring VC narratives
 
 **currently:**
-[Mystic DAO](https://mystic.xyz) - Solana DeFi
+- [Mystic DAO](https://mystic.xyz) - Solana DeFi
 
 **previously:**
-[Duel](https://duel.casino) - online casino
-[Pr3sence](https://pr3sence.xyz) - web3 ad server
-[Nomen Market](https://nomenmarket.com) - NEAR Protocol wallet/marketplace
-PWC - data & analytics
+- [Duel](https://duel.casino) - online casino
+- [Pr3sence](https://pr3sence.xyz) - web3 ad server
+- [Nomen Market](https://nomenmarket.com) - NEAR Protocol wallet/marketplace
+- PWC - data & analytics
 
 ---
 
