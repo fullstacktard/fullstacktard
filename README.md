@@ -18,8 +18,6 @@ solo dev building crypto/web3 products, shipping fast, ignoring VC narratives
 
 **blockchain:** Solana, NEAR Protocol, Web3
 
-**tools:** Claude Code, Docker, DigitalOcean
-
 ---
 
 ## npm packages
@@ -68,8 +66,11 @@ why Meta keeps shipping hollow products while Sora blows up overnight, and what 
 ## connect
 
 **website:** [fst.wtf](https://fst.wtf)
+
 **twitter:** [@fullstacktard](https://twitter.com/fullstacktard)
+
 **telegram:** [@fullstacktard](https://t.me/fullstacktard)
+
 **email:** fullstacktard@gmail.com
 
 ---
