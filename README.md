@@ -23,6 +23,12 @@ did time at **PWC** doing data & analytics before escaping to build shit that ma
 
 ## npm packages
 
+### [claude-clipboard](https://www.npmjs.com/package/claude-clipboard)
+
+smart clipboard integration for Claude Code - paste screenshots and images directly from clipboard
+
+[![npm version](https://img.shields.io/npm/v/claude-clipboard.svg?style=flat-square)](https://www.npmjs.com/package/claude-clipboard) [![npm downloads](https://img.shields.io/npm/dw/claude-clipboard.svg?style=flat-square)](https://www.npmjs.com/package/claude-clipboard)
+
 ### [claude-wsl](https://www.npmjs.com/package/claude-wsl)
 
 visual notifications, tab indicators, and status tracking for Claude Code in Windows Terminal + WSL
